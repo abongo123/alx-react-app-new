@@ -18,7 +18,7 @@ function App() {
       <MainContent /> {/* Added MainContent component */}
       <Footer /> {/* Added Footer component */}
 
-      <UserProfile name="Steve Abongo" age="27" bio="Love Watching Footballl and I support Manchester united"/>
+      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
 
 
       <div>
