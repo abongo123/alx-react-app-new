@@ -1,8 +1,8 @@
 import WelcomeMessage from './WelcomeMessage';
-
 import Header from './Header';
 import MainContent from './MainContent';
 import Footer from './Footer';
+import UserProfile from './UserProfile';
 
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -14,10 +14,12 @@ function App() {
 
   return (
     <>
-
       <Header /> {/* Added Header component */}
       <MainContent /> {/* Added MainContent component */}
       <Footer /> {/* Added Footer component */}
+
+      <UserProfile name="Steve Abongo" age="27" bio="Love Watching Footballl and I support Manchester united"/>
+
 
       <div>
         <a href="https://vite.dev" target="_blank">
@@ -41,7 +43,7 @@ function App() {
       </p>
       <WelcomeMessage />
     </>
-  )
+  );
 }
 
 export default App
